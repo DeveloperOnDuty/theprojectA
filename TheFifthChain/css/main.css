@@ -514,6 +514,7 @@ color: #7e7e7e;
     margin-right: 20px;
     margin-top: 17px;
     margin-bottom: 20px;
+   
 
 }
  .spc{
@@ -534,7 +535,10 @@ color: #7e7e7e;
 }
 .tasks{
     list-style: none;
-    padding: 0
+    padding: 0;
+    height: 250px;
+    max-height: 300px;
+    overflow-y: scroll
     
 }
 .tasks li {
@@ -755,7 +759,8 @@ footer{
     color: #EEE;
     padding: 19px;
     font-size: 18px;
-    overflow: hidden
+    
+  
 }
 footer .chain{
     color: #ff8100;
